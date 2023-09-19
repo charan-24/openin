@@ -1,0 +1,24 @@
+.cross{
+    display: inline;
+}
+#basic{
+        text-decoration-line: underline;
+}
+#basic:active{
+    text-decoration: aqua;
+}
+#social{
+    text-decoration-line: underline;
+}
+.left-side{
+    /* position: absolute; 
+    top: 0%;
+    left:0%; */
+    overflow: hidden;
+    background: linear-gradient(180deg, #4285F4 0%, #286DE0 100%);
+}
+@media screen and (min-width: 1024px) {
+    .cross{
+        display: none;
+    }
+  }
