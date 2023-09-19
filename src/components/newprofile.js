@@ -11,6 +11,8 @@ function Newprofile({isVisible,data,profile}){
     if(data.name==="" && data.email==="" && data.phone==="" &&data.insta==="" && data.youtube===""){
         profile();
     }
+    
+    const str= "............";
     return(
         // <div className="lg">
             <div className="w-3/4 lg:w-fit xl:w-2/5 lg:h-fit lg:p-4 lg:box-content xl:box-border lg:py-[9rem] xl:pt-[1rem] lg:mt-0 mx-auto mt-8 rounded-3xl shadow-2xl border-[#E0E0E0]-500 border-2 pt-4">

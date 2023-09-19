@@ -2,13 +2,26 @@
     display: inline;
 }
 #basic{
-        text-decoration-line: underline;
+        /* text-decoration-line: underline; */
+        /* text-decoration-color: aqua; */
+        /* background-color: #286DE0; */
+        /* padding: 20px 40px; */
+        text-align: center;
+        border-bottom: 4px solid gray;
+        width: 40%;
 }
-#basic:active{
-    text-decoration: aqua;
+#basic:focus-within{
+    border-bottom: 4px solid #3F84F8;
 }
+
 #social{
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
+    text-align: center;
+    border-bottom: 4px solid gray;
+    width: 40%;
+}
+#social:focus-within{
+    border-bottom: 4px solid #3F84F8;
 }
 .left-side{
     /* position: absolute; 

@@ -52,7 +52,8 @@ function Modal({isVisible,click,setArr,profile}){
                         <button className="text-2xl" onClick={()=>click()}>X</button>
                     </div>
                     <hr></hr>
-                    <div className="flex justify-evenly mt-2">
+                    <div className="flex flex-row justify-around mt-2"> 
+                    {/* Basic Information */}
                         <button id="basic" onClick={handleShow} className="font-bold text-lg">Basic</button>
                         <button id="social" onClick={handleShow} className="font-bold text-lg">Social</button>
                     </div>

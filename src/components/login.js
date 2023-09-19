@@ -68,7 +68,7 @@ function Login() {
                             <label htmlFor="password" className="block text-[16px]  m-4 font-lato">password</label>                    
                             <input id="password" type="password" className="h-[43px] bg-[#F5F5F5] rounded w-full p-2 m2 focus:outline-none font-lato"/>  
                             <a href="/" className="block text-blue-400 m-4 font-lato">Forgot password?</a>     
-                            <button className=" block bg-blue-500 text-white w-3/4 h-[43px] rounded-md mt-2 mx-auto m-4 font-montserrat font-bold">Sign in</button> 
+                            <button className=" block bg-blue-500 text-white w-3/4 h-[43px] rounded-md mt-2 mx-auto m-4 font-montserrat font-bold" onClick={()=>navigate('/dashboard')}>Sign in</button> 
                             <p className="text-center text-[#858585] mt-2 font-lato">Don't have an account? <a href="/" className="text-blue-400 m-4 font-lato">Register here</a></p>             
                         </form>
                     </div>
